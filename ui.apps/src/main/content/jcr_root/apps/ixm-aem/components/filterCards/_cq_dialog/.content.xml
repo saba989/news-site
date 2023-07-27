@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Filter Cards"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+        margin="{Boolean}false">
+        <items jcr:primaryType="nt:unstructured">
+            <column
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <rootPagePath
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                        emptyText="Add Root Page Path"
+                        fieldDescription="root page path for filter "
+                        fieldLabel="Root Page Path"
+                        name="./rootPagePath"
+                        required="{Boolean}true"
+                        rootPath="/content/ixm-aem"/>
+                    <noOfItems
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+                        emptyText="Enter number "
+                        fieldDescription="no of items to be displayed initiallly"
+                        fieldLabel="No of Items"
+                        name="./noOfItems"/>
+                    <pagination
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/foundation/form/checkbox"
+                        fieldDescription="Select checkbox to enable pagination"
+                        name="./pagination"
+                        text="Pagination"
+                        uncheckedValue="false"
+                        value="true"/>
+                    <tagList
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="/libs/cq/gui/components/coral/common/form/tagfield"
+                        emptyText="Add Tags"
+                        fieldDescription="Tags used while filterting pages"
+                        fieldLabel="Tag List"
+                        multiple="{Boolean}true"
+                        name="./tagList"
+                        required="{Boolean}true"/>
+                    <imagePathReference
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        emptyText="Add Image Path Reference"
+                        fieldDescription="reference for image to to displayed on filter result"
+                        fieldLabel="Image Path Reference"
+                        name="./imagePathReference"
+                        required="{Boolean}true"/>
+                </items>
+            </column>
+        </items>
+    </content>
+</jcr:root>

@@ -1,0 +1,27 @@
+{
+  "jcr:primaryType": "cq:Page",
+  "jcr:mixinTypes": [
+    "rep:AccessControllable"
+  ],
+  "jcr:content": {
+    "jcr:primaryType": "cq:PageContent",
+    "jcr:title": "title1",
+    "navTitle": "nav1",
+    "pageTitle": "pagetitle1",
+    "cq:template": "/conf/ixm/settings/wcm/templates/site-empty-page",
+    "sling:resourceType": "ixm/components/page",
+    "root": {
+      "jcr:primaryType": "nt:unstructured",
+      "sling:resourceType": "ixm/components/container",
+      "container": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "ixm/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "layout": "responsiveGrid",
+          "sling:resourceType": "ixm/components/container"
+        }
+      }
+    }
+  }
+}

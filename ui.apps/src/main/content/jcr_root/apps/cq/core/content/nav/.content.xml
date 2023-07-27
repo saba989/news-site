@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured">
+    <tools jcr:primaryType="nt:unstructured">
+        <ixm-utils
+            jcr:primaryType="nt:unstructured"
+            jcr:title="IXM Utils"
+            id="cq-tools-ixm-utils">
+            <migration-util
+                jcr:description="A utility for generating site structure"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Migration Util"
+                href="/apps/ixm-aem/content/ixm-migration-utility.html"
+                id="ixm-migration-utility"
+                target="_blank">
+                <granite:rendercondition
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/renderconditions/privilege"
+                    path="/content/ixm-aem"
+                    privileges="[jcr:read,jcr:write]"/>
+            </migration-util>
+        </ixm-utils>
+        <solr-utils
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Solr Utils"
+            id="cq-tools-solr-utils">
+            <collection
+                jcr:description="A utility for creating collection"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Add Collection"
+                href="/apps/ixm-aem/content/collection.html"
+                id="solr-collection-utility"
+                target="_blank"/>
+            <queryboost
+                jcr:description="A utility for boosting your query"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Query Boosting"
+                href="/apps/ixm-aem/content/queryboost.html"
+                id="solr-queryboost-utility"
+                target="_blank"/>
+            <manage
+                jcr:description="Manage Collection"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Manage Collection"
+                href="/apps/ixm-aem/content/managecollection/configurations/manage-collection/content.html"
+                icon="project"
+                id="solr-managecollection-utility"/>
+        </solr-utils>
+    </tools>
+</jcr:root>

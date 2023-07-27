@@ -1,0 +1,223 @@
+{
+  "jcr:primaryType": "cq:Page",
+  "jcr:createdBy": "admin",
+  "jcr:created": "Mon Jul 18 2022 15:24:55 GMT+0530",
+  "jcr:content": {
+    "jcr:primaryType": "cq:PageContent",
+    "jcr:mixinTypes": ["mix:versionable"],
+    "jcr:createdBy": "admin",
+    "jcr:title": "en",
+    "cq:lastReplicatedBy_publish": "admin",
+    "cq:lastReplicationAction": "Activate",
+    "jcr:versionHistory": "e7f2586c-bc97-469f-addf-9481bd8c2221",
+    "pwaOrientation": "any",
+    "cq:template": "/conf/ixm-aem/settings/wcm/templates/page-content",
+    "cq:lastReplicatedBy": "admin",
+    "cq:lastReplicationAction_publish": "Activate",
+    "jcr:predecessors": ["ccad5b83-193e-4a35-a9ab-2f31fd4f4e13"],
+    "cq:contextHubSegmentsPath": "/etc/segmentation/contexthub",
+    "jcr:created": "Mon Jul 18 2022 15:24:55 GMT+0530",
+    "pwaDisplay": "standalone",
+    "cq:lastReplicated": "Thu Aug 18 2022 11:49:34 GMT+0530",
+    "cq:lastModified": "Wed Aug 10 2022 10:44:36 GMT+0530",
+    "pwaCachestrategy": "staleWhileRevalidate",
+    "jcr:baseVersion": "ccad5b83-193e-4a35-a9ab-2f31fd4f4e13",
+    "jcr:isCheckedOut": true,
+    "pageTitle": "IXM AEM",
+    "jcr:uuid": "1d885ead-3334-4cee-9f8f-557236cbebb4",
+    "sling:resourceType": "ixm-aem/components/page",
+    "cq:contextHubPath": "/etc/cloudsettings/default/contexthub",
+    "cq:lastReplicated_publish": "Thu Aug 18 2022 11:49:34 GMT+0530",
+    "cq:lastModifiedBy": "admin",
+    "root": {
+      "jcr:primaryType": "nt:unstructured",
+      "layout": "responsiveGrid",
+      "sling:resourceType": "ixm-aem/components/container",
+      "container": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "ixm-aem/components/container",
+        "title": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "ixm-aem/components/title"
+        },
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "layout": "responsiveGrid",
+          "sling:resourceType": "ixm-aem/components/container",
+          "teaser": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:title": "Epic Journey",
+            "actionsEnabled": "false",
+            "titleFromPage": "false",
+            "jcr:description": "<p>Don't stop half way, go for the top!</p>\r\n",
+            "descriptionFromPage": "false",
+            "sling:resourceType": "ixm-aem/components/teaser",
+            "textIsRich": "true",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "jcr:primaryType": "nt:unstructured",
+                "offset": "0",
+                "width": "4"
+              }
+            }
+          },
+          "teaser_copy": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:title": "Epic Journey",
+            "actionsEnabled": "false",
+            "titleFromPage": "false",
+            "jcr:description": "<p>Don't stop half way, go for the top!</p>\r\n",
+            "descriptionFromPage": "false",
+            "sling:resourceType": "ixm-aem/components/teaser",
+            "textIsRich": "true",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "jcr:primaryType": "nt:unstructured",
+                "offset": "0",
+                "width": "4"
+              }
+            }
+          },
+          "teaser_copy_1579324932": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:title": "Epic Journey",
+            "actionsEnabled": "false",
+            "titleFromPage": "false",
+            "jcr:description": "<p>Don't stop half way, go for the top!</p>\r\n",
+            "descriptionFromPage": "false",
+            "sling:resourceType": "ixm-aem/components/teaser",
+            "textIsRich": "true",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "jcr:primaryType": "nt:unstructured",
+                "offset": "0",
+                "width": "4"
+              }
+            }
+          },
+          "helloworld": {
+            "jcr:primaryType": "nt:unstructured",
+            "text": "lalala :)",
+            "sling:resourceType": "ixm-aem/components/helloworld"
+          },
+          "footer": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:createdBy": "admin",
+            "jcr:lastModifiedBy": "admin",
+            "jcr:created": "Fri Jul 22 2022 10:15:40 GMT+0530",
+            "jcr:lastModified": "Fri Jul 22 2022 10:15:40 GMT+0530",
+            "sling:resourceType": "ixm-aem/components/footer"
+          },
+          "links": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:createdBy": "admin",
+            "jcr:lastModifiedBy": "admin",
+            "jcr:created": "Mon Jul 25 2022 11:18:08 GMT+0530",
+            "jcr:lastModified": "Mon Jul 25 2022 11:18:08 GMT+0530",
+            "sling:resourceType": "ixm-aem/components/footer/links"
+          },
+          "linktabs": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:createdBy": "admin",
+            "jcr:lastModifiedBy": "admin",
+            "jcr:created": "Wed Jul 27 2022 18:28:44 GMT+0530",
+            "jcr:lastModified": "Wed Jul 27 2022 18:28:44 GMT+0530",
+            "sling:resourceType": "ixm-aem/components/linkTabs"
+          },
+          "tablinks": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:createdBy": "admin",
+            "jcr:lastModifiedBy": "admin",
+            "jcr:created": "Wed Jul 27 2022 18:28:50 GMT+0530",
+            "jcr:lastModified": "Tue Aug 09 2022 09:41:32 GMT+0530",
+            "sling:resourceType": "ixm-aem/components/tabLinks",
+            "tabs": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "jcr:primaryType": "nt:unstructured",
+                "title": "ss"
+              },
+              "item1": {
+                "jcr:primaryType": "nt:unstructured",
+                "title": "ss"
+              }
+            }
+          },
+          "sitemap": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:createdBy": "admin",
+            "jcr:lastModifiedBy": "admin",
+            "jcr:created": "Fri Aug 05 2022 16:35:55 GMT+0530",
+            "jcr:lastModified": "Fri Aug 05 2022 16:36:30 GMT+0530",
+            "sling:resourceType": "ixm-aem/components/sitemap"
+          },
+          "tablinks_2086443443": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:createdBy": "admin",
+            "jcr:lastModifiedBy": "admin",
+            "jcr:created": "Mon Aug 08 2022 16:36:33 GMT+0530",
+            "jcr:lastModified": "Mon Aug 08 2022 16:36:33 GMT+0530",
+            "sling:resourceType": "ixm-aem/components/tabLinks"
+          }
+        }
+      }
+    },
+    "cq:featuredimage": {
+      "jcr:primaryType": "nt:unstructured",
+      "jcr:lastModifiedBy": "admin",
+      "jcr:lastModified": "Wed Aug 10 2022 10:44:36 GMT+0530",
+      "sling:resourceType": "core/wcm/components/image/v3/image",
+      "altValueFromDAM": "false"
+    }
+  },
+  "tset": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Tue Aug 09 2022 11:21:46 GMT+0530",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:mixinTypes": ["mix:versionable"],
+      "jcr:createdBy": "admin",
+      "jcr:title": "tset",
+      "cq:lastReplicatedBy_publish": "admin",
+      "cq:lastReplicationAction": "Activate",
+      "jcr:versionHistory": "0aea7bbb-e714-46e3-a014-3ba7597bdd8d",
+      "pwaOrientation": "any",
+      "cq:template": "/conf/ixm-aem/settings/wcm/templates/home-page",
+      "cq:lastReplicatedBy": "admin",
+      "cq:lastReplicationAction_publish": "Activate",
+      "jcr:predecessors": ["6d3d5b44-6f23-48a4-a85c-f19fb81e3d5b"],
+      "jcr:created": "Tue Aug 09 2022 11:21:46 GMT+0530",
+      "pwaDisplay": "standalone",
+      "cq:lastReplicated": "Thu Aug 18 2022 11:49:42 GMT+0530",
+      "cq:lastModified": "Tue Aug 16 2022 16:17:55 GMT+0530",
+      "pwaCachestrategy": "staleWhileRevalidate",
+      "jcr:baseVersion": "6d3d5b44-6f23-48a4-a85c-f19fb81e3d5b",
+      "jcr:isCheckedOut": true,
+      "jcr:uuid": "b8b9b279-dc5c-4436-8196-5dc1f402f3e6",
+      "sling:resourceType": "ixm-aem/components/page",
+      "cq:lastReplicated_publish": "Thu Aug 18 2022 11:49:42 GMT+0530",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "layout": "responsiveGrid",
+        "sling:resourceType": "ixm-aem/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "layout": "responsiveGrid",
+          "sling:resourceType": "ixm-aem/components/container"
+        }
+      },
+      "cq:featuredimage": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:lastModifiedBy": "admin",
+        "jcr:lastModified": "Wed Aug 10 2022 10:44:59 GMT+0530",
+        "sling:resourceType": "core/wcm/components/image/v3/image",
+        "altValueFromDAM": "true"
+      }
+    }
+  }
+}

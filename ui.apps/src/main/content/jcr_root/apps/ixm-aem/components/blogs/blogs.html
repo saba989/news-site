@@ -1,0 +1,38 @@
+<div data-sly-use.blogs="com.ixm.core.models.BlogsModel"
+     data-sly-use.template="core/wcm/components/commons/v1/templates.html">    
+    <div class="component-content">
+        <div class="component rich-text col-12">
+            <div class="component-content">
+                <h3 class="article-title">${blogs.title}</h3>
+                <h1><span>${blogs.subtitle}</span></h1>
+            </div>
+        </div>
+        <div class="row component column-splitter">
+            <sly data-sly-list.blogItem="${blogs.blogItems}"> 
+                <div class="col-6">
+                    <div class="component imagetexttile promo col-12 blue-colour-background">
+                        <div class="component-content">
+                            <div data-sly-test="${blogItem.blogLinkUrl}" class="row">
+                                <div class="leader-image col-4"><a href="${blogItem.blogLinkUrl}" target="${blogItem.blogLinkTarget ? '_blank' : '_self'}" ><img alt="" class="leader-image" src="${blogItem.blogImage}" /></a></div>
+                                <div class="col-md-8 leader-description field-description">
+                                    <a href="${blogItem.blogLinkUrl}" target="${blogItem.blogLinkTarget ? '_blank' : '_self'}"><h4>${blogItem.blogTitle}</h4></a>
+                                    <h3>${blogItem.blogSubTitle}</h3>
+                                    ${blogItem.blogDescription}<br />
+                                </div>
+                            </div>    
+                            <div data-sly-test="${!blogItem.blogLinkUrl}" class="row">
+                                <div class="leader-image col-4"><img alt="" class="leader-image" src="${blogItem.blogImage}"/></div>
+                                <div class="col-md-8 leader-description field-description">
+                                    <h4>${blogItem.blogTitle}</h4>
+                                    <h3>${blogItem.blogSubTitle}</h3>
+                                    ${blogItem.blogDescription}<br />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>       
+            </sly>     
+        </div>
+    </div>
+</div>
+<sly data-sly-call="${template.placeholder @ isEmpty=!blogs.blogItems}"></sly>

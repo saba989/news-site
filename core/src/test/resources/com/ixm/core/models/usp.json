@@ -1,0 +1,42 @@
+{
+	"jcr:primaryType": "nt:unstructured",
+	"jcr:createdBy": "admin",
+	"jcr:lastModifiedBy": "admin",
+	"jcr:created": "Mon Aug 08 2022 17:19:00 GMT+0530",
+	"title": "Title of usp component ",
+	"jcr:lastModified": "Mon Aug 08 2022 17:29:58 GMT+0530",
+	"sling:resourceType": "ixm-aem/components/usp",
+	"usps": {
+		"jcr:primaryType": "nt:unstructured",
+		"item0": {
+			"jcr:primaryType": "nt:unstructured",
+			"altText": "image one",
+			"uspTitle": "Background image",
+			"image": "/content/dam/ixm-aem/bg1.jpg",
+			"bullets": {
+				"jcr:primaryType": "nt:unstructured",
+				"item0": {
+					"jcr:primaryType": "nt:unstructured",
+					"text": "this image show sun rise."
+				},
+				"item1": {
+					"jcr:primaryType": "nt:unstructured",
+					"text": "this image shows sea"
+				}
+			}
+		},
+		"item1": {
+			"jcr:primaryType": "nt:unstructured",
+			"altText": "image two",
+			"uspTitle": "Nagarro",
+			"image": "/content/dam/ixm-aem/nagarro.png",
+			"bullets": {
+				"jcr:primaryType": "nt:unstructured",
+				"item0": {
+					"jcr:primaryType": "nt:unstructured",
+					"text": "this image show logo of nagrro"
+				}
+			}
+		}
+	}
+}

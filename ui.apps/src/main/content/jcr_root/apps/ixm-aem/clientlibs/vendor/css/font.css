@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "EquipExtended";
+    src: url("/apps/ixm-aem/clientlibs/clientlib-site/resources/fonts/EquipExtended-Bold.otf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+  }
+@font-face {
+    font-family: "EquipExtended";
+    src: url("/apps/ixm-aem/clientlibs/clientlib-site/resources/fonts/EquipExtended-Regular.otf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+  }

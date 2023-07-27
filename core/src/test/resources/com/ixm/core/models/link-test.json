@@ -1,0 +1,31 @@
+{
+    "jcr:primaryType": "nt:unstructured",
+    "sling:resourceType": "IXM-INTEX/components/content/link",
+    "linkdetailswithmap": {
+        "jcr:primaryType": "nt:unstructured",
+        "item0": {
+            "jcr:primaryType": "nt:unstructured",
+            "linkCheckbox": "true",
+            "altText": "This is my Alt Text.",
+            "imageUrl": "/content/dam/ixm-aem/asset.jpg",
+            "linkUrl": "https://www.google.com",
+            "linkText": "Google"
+        },
+        "item1": {
+            "jcr:primaryType": "nt:unstructured",
+            "linkCheckbox": "true",
+            "altText": "This is my entered alt Text.",
+            "imageUrl": "/content/dam/ixm-aem/asset.jpg",
+            "linkUrl": "/content/ixm-aem/us/en/HomePage",
+            "linkText": "Home Page "
+        },
+        "item2": {
+            "jcr:primaryType": "nt:unstructured",
+            "linkCheckbox": "true",
+            "imageUrl": "/content/dam/ixm-aem/asset.jpg",
+            "altText": "              ",
+            "linkUrl": "https://www.amazon.com",
+            "linkText": "Amazon"
+        }
+    }
+}

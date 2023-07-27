@@ -1,0 +1,20 @@
+{
+	"jcr:primaryType": "nt:unstructured",
+	"subtitle": "my personal blog",
+	"jcr:createdBy": "admin",
+	"jcr:lastModifiedBy": "admin",
+	"title": "My Blog",
+	"sling:resourceType": "aem-acclerator/components/blogs",
+	"blogItems": {
+		"jcr:primaryType": "nt:unstructured",
+		"item0": {
+			"jcr:primaryType": "nt:unstructured",
+			"blogLinkUrl": "https://www.youtube.com/",
+			"blogSubTitle": "my blog subtitle",
+			"blogLinkTarget": "false",
+			"blogDescription": "This is my first blog",
+			"blogTitle": "my blog",
+			"blogImage" : "/content/dam/test.jpg"
+		}
+	}
+}

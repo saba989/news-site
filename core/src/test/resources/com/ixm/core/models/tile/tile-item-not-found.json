@@ -1,0 +1,12 @@
+{
+	"jcr:primaryType": "nt:unstructured",
+	"subTitle": "this is component subTitle",
+	"jcr:createdBy": "admin",
+	"jcr:lastModifiedBy": "admin",
+	"layout": "2x2",
+	"quotes": "false",
+	"jcr:created": "Mon Aug 22 2022 10:23:03 GMT+0530",
+	"title": "this component title",
+	"jcr:lastModified": "Mon Aug 22 2022 10:23:41 GMT+0530",
+	"sling:resourceType": "ixm-aem1/components/tile"
+}

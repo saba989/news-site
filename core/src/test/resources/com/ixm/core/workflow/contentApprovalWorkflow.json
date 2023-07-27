@@ -1,0 +1,53 @@
+{
+	"jcr:primaryType": "cq:Page",
+	"jcr:createdBy": "admin",
+	"jcr:created": "Fri Aug 26 2022 11:01:42 GMT+0530",
+	"jcr:content": {
+		"jcr:primaryType": "cq:PageContent",
+		"jcr:createdBy": "admin",
+		"jcr:title": "Content Approval Workflow",
+		"cq:template": "/libs/cq/workflow/templates/model",
+		"jcr:created": "Fri Aug 26 2022 11:01:42 GMT+0530",
+		"sling:resourceType": "cq/workflow/components/pages/model",
+		"cq:designPath": "/libs/settings/wcm/designs/default",
+		"cq:lastModifiedBy": "admin",
+		"lastSynced": "Fri Aug 26 2022 10:19:31 GMT+0530",
+		"dynamic_participant": {
+			"jcr:primaryType": "nt:unstructured",
+			"jcr:title": "Send for review",
+			"jcr:lastModifiedBy": "admin",
+			"jcr:description": "Send for review",
+			"sling:resourceType": "cq/workflow/components/model/dynamic_participant",
+			"metaData": {
+				"jcr:primaryType": "nt:unstructured",
+				"DYNAMIC_PARTICIPANT": "com.ixm.core.workflows.AuthorDynamicParticipantStep",
+				"jcr:content": {
+					"id": "/var/workflow/instances/server0/2022-08-26_2/content-approval-workflow_52",
+					"state": "COMPLETED",
+					"initiator": "admin",
+					"startTime": "Mon Aug 29 15:09:37 IST 2022",
+					"endTime": "Mon Aug 29 15:10:25 IST 2022",
+					"model": "/var/workflow/models/ixm-aem/content-approval-workflow",
+					"payloadType": "JCR_PATH",
+					"payload": "/content/ixm-aem/us/our-capabilities/analytics"	,
+					"jcr:content": {
+"jcr:primaryType": "cq:PageContent",
+"jcr:mixinTypes": [
+"mix:versionable"
+],
+"jcr:createdBy": "admin",
+"jcr:title": "Analytics",
+"cq:lastReplicatedBy_publish": "workflow-process-service",
+"cq:lastReplicationAction": "Activate",
+"jcr:versionHistory": "4a5abef1-3013-4002-b87b-8ad6b3b8797e",
+"pwaOrientation": "any",
+"author": "approval@test.com",
+"cq:template": "/conf/ixm-aem/settings/wcm/templates/home-page",
+"cq:lastReplicatedBy": "workflow-process-service",
+"cq:lastReplicationAction_publish": "Activate"
+}				
+				}
+			}
+		}
+	}
+}

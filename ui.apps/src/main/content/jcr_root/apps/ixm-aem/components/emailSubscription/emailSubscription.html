@@ -1,0 +1,40 @@
+<div data-sly-use.model="com.adobe.cq.wcm.core.components.models.Title"
+     data-sly-use.template="core/wcm/components/commons/v1/templates.html">
+</div>
+<sly data-sly-call="${template.placeholder @ isEmpty=!model.email}"></sly>
+
+
+<sly data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"/>
+<div class="custom-message" data-element-validation="${properties.validationMessage}"></div>
+
+<!--<div class="component container"> -->
+    <!--<div class="component-content">-->
+		<!--<div class="component content automate-pagecontent-connectwithus col-12">-->
+    		<!--<div class="component-content"> -->
+				<!--<section class="subscription"> -->
+					<!--<div class="container">-->
+                        
+                            <div class="row">
+                                <div class="email-sub">
+                                    <h4 class="field-subheader">${properties.subscriptionTitle}</h4>
+                                    <div class="component sitecore-form col-12">
+                                        <div class="component-content">
+                                            <form method="post" style="right: 15px;">
+                                                <div class="ixm-form">
+                                                    <input id="emailValue" class="form-box" type="text" value="" maxlength="255" placeholder="${properties.placeholder}">
+                                                    <input type="submit" class="form-button" value="Subscribe">							
+                                                </div>
+                                                <input type="hidden" data-sc-fxb-condition="" value="{}">
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                       
+					</div>
+				</section>
+		    </div>
+		</div>
+    </div>
+</div>
+

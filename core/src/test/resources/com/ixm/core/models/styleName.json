@@ -1,0 +1,38 @@
+{
+	"stylePresent": {
+		"jcr:primaryType": "cq:Page",
+		"jcr:content": {
+			"jcr:primaryType": "cq:PageContent",
+			"jcr:mixinTypes": [
+				"mix:versionable"
+			],
+			"jcr:title": "en",
+			"cq:template": "/conf/ixm-aem/settings/wcm/templates/home-page",
+			"pageTitle": "IXM AEM",
+			"jcr:uuid": "9127f8d6-d9eb-4553-aa6e-cfb92c713923",
+			"sling:resourceType": "ixm-aem/components/page",
+			"styleName": "ixm-aem",
+			"root": {
+				"jcr:primaryType": "nt:unstructured"
+			}
+		}
+	},
+	"styleNotPresent": {
+		"jcr:primaryType": "cq:Page",
+		"jcr:content": {
+			"jcr:primaryType": "cq:PageContent",
+			"jcr:mixinTypes": [
+				"mix:versionable"
+			],
+			"jcr:title": "en",
+			"cq:template": "/conf/ixm-aem/settings/wcm/templates/home-page",
+			"pageTitle": "IXM AEM",
+			"jcr:uuid": "9127f8d6-d9eb-4553-aa6e-cfb92c713923",
+			"sling:resourceType": "ixm-aem/components/page",
+			"cq:lastModifiedBy": "admin",
+			"root": {
+				"jcr:primaryType": "nt:unstructured"
+			}
+		}
+	}
+}

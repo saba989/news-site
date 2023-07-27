@@ -1,0 +1,32 @@
+{
+	"jcr:primaryType": "nt:unstructured",
+	"jcr:createdBy": "admin",
+	"description": "<p>description</p>\r\n",
+	"jcr:lastModifiedBy": "admin",
+	"desktopImageName": "asset.jpg",
+	"jcr:created": "Wed Jul 27 2022 14:15:21 GMT+0530",
+	"desktopImageReference": "/content/dam/ixm-aem/bg1.jpg",
+	"text": "Welcome to nagarro",
+	"linkUrl": "/content/ixm/us/en",
+	"mobileImageReference": "/content/dam/ixm-aem/asset.jpg",
+	"jcr:lastModified": "Thu Jul 28 2022 10:59:20 GMT+0530",
+	"linkText": "Home",
+	"sling:resourceType": "ixm-aem/components/heroImage",
+	"tabletImageReference": "/content/dam/ixm-aem/nagarro.png",
+	"textIsRich": "true",
+	"imageBorder": "0",
+	"textAlignment": "left",
+	"desktopImage": {
+		"jcr:primaryType": "nt:file",
+		"jcr:createdBy": "admin",
+		"jcr:created": "Wed Jul 27 2022 15:55:41 GMT+0530",
+		"jcr:content": {
+			"jcr:primaryType": "nt:resource",
+			"jcr:lastModifiedBy": "admin",
+			"jcr:mimeType": "image/jpeg",
+			"jcr:lastModified": "Wed Jul 27 2022 15:55:41 GMT+0530",
+			":jcr:data": 71150,
+			"jcr:uuid": "2a81f96e-e562-486e-a657-c63ba0f8ec13"
+		}
+	}
+}

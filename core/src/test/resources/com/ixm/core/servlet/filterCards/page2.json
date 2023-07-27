@@ -1,0 +1,41 @@
+{
+    "jcr:primaryType": "cq:Page",
+    "jcr:content": {
+        "jcr:primaryType": "cq:PageContent",
+        "jcr:title": "page2",
+        "cq:template": "/conf/ixm-aem/settings/wcm/templates/home-page",
+        "cq:tags": [
+            "ixm:men/sports",
+            "ixm:women/sports"
+        ], 
+        "sling:resourceType": "ixm-aem/components/page",
+        "root": {
+            "jcr:primaryType": "nt:unstructured",
+            "layout": "responsiveGrid",
+            "sling:resourceType": "ixm-aem/components/container",
+            "container": {
+                "jcr:primaryType": "nt:unstructured",
+                "layout": "responsiveGrid",
+                "sling:resourceType": "ixm-aem/components/container",
+                "heroimage": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "desktopImageName": "Passport_Photograph.jpg",
+                    "desktopImageReference": "/content/dam/ixm-aem/asset2.jpg",
+                    "sling:resourceType": "ixm-aem1/components/heroImage",
+                    "textIsRich": "true",
+                    "imageBorder": "0",
+                    "textAlignment": "left",
+                    "desktopImage": {
+                        "jcr:primaryType": "nt:file",
+                        "jcr:content": {
+                            "jcr:primaryType": "nt:resource",
+                            "jcr:mimeType": "image/jpeg",
+                            ":jcr:data": 26761,
+                            "jcr:uuid": "2f6e5848-8ba9-488f-b6e6-a1f9ef56458b"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

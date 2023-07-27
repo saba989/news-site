@@ -1,0 +1,21 @@
+{
+	"jcr:primaryType": "nt:unstructured",
+	"subTitle": "this is component subTitle",
+	"layout": "3x3",
+	"quotes": "true",
+	"title": "this is component title",
+	"sling:resourceType": "ixm-aem1/components/tile",
+	"tileItems": {
+		"jcr:primaryType": "nt:unstructured",
+		"item0": {
+			"jcr:primaryType": "nt:unstructured",
+			"description": "description of tile1",
+			"title": "title of tile1"
+		},
+		"item1": {
+			"jcr:primaryType": "nt:unstructured",
+			"description": "description of tile2",
+			"title": "title of tile2"
+		}
+	}
+}

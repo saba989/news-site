@@ -1,0 +1,18 @@
+{
+    "title": {
+        "jcr:primaryType":"nt:unstructured",
+        "type":"h5",
+        "title":"helllo",
+        "linkUrl":"/content/ixm-aem/us/en/second",
+        "linkTarget":"_blank",
+        "sling:resourceType":"ixm-aem/components/title"
+    },
+    "titleTwo": {
+        "jcr:primaryType":"nt:unstructured",
+        "type":"h5",
+        "title":"helllo",
+        "linkUrl":"www.google.com",
+        "linkTarget":"_blank",
+        "sling:resourceType":"ixm-aem/components/title"
+    }
+}

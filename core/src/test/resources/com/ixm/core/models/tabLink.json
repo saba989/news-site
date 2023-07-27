@@ -1,0 +1,44 @@
+{
+  "jcr:primaryType":"nt:unstructured",
+  "sling:resourceType":"ixm-aem/components/tabLinks",
+  "tabs": {
+     "jcr:primaryType":"nt:unstructured",
+     "item0": {
+          "jcr:primaryType":"nt:unstructured",
+          "title":"Tab 1",
+          "links": {
+                "jcr:primaryType":"nt:unstructured",
+                "item0": {
+                      "jcr:primaryType":"nt:unstructured",
+                      "linkUrl":"/apps/ixm-aem/components/address",
+                      "linkText":"Link1"
+                         },
+                "item1": {
+                      "jcr:primaryType":"nt:unstructured",
+                      "linkUrl":"/content/ixm-aem/us/en.html",
+                      "linkTarget":"_blank",
+                      "linkText":"Link2"
+                         }
+                   }
+              },
+     "item1": {
+                "jcr:primaryType":"nt:unstructured",
+                "title":"Tab 2",
+                "links":
+                        {
+                         "jcr:primaryType":"nt:unstructured",
+                         "item0": {
+                                    "jcr:primaryType":"nt:unstructured",
+                                    "linkUrl":"/content/ixm-aem/us/en.html",
+                                    "linkTarget":"_blank",
+                                    "linkText":"Link1"
+                                  
+                                  }
+                        }
+              },
+     "item2": {
+                "jcr:primaryType":"nt:unstructured",
+                "title":"Tab 3"
+              }
+     }
+}

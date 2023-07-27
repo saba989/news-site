@@ -1,0 +1,17 @@
+{
+  "jcr:primaryType": "nt:unstructured",
+  "sling:resourceType": "ixm-aem/components/navigation",
+  "navigationItems": {
+    "jcr:primaryType": "nt:unstructured",
+    "item0": {
+      "jcr:primaryType": "nt:unstructured",
+      "linkCheckbox": "false",
+      "rootPagePath": "/content/ixm-aem/us/test1"
+    },
+    "item1": {
+      "jcr:primaryType": "nt:unstructured",
+      "linkCheckbox": "true",
+      "rootPagePath": "/content/ixm-aem/us/test2"
+    }
+  }
+  }

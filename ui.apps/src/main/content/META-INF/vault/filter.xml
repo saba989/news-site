@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/ixm-aem/clientlibs"/>
+    <filter root="/apps/ixm-aem/components"/>
+    <filter root="/apps/ixm-aem/i18n"/>
+	<filter root="/apps/ixm-aem/content"/>
+	<filter root="/apps/cq"/>
+</workspaceFilter>

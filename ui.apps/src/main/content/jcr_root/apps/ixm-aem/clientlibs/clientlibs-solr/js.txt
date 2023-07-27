@@ -1,0 +1,6 @@
+#base=js
+
+addcollection.js
+managecollection.js
+queryBoosting.js
+dialog.js
